@@ -1,0 +1,51 @@
+#wrap {
+	width: 750px;
+	margin: 0 auto;
+	}
+	
+#hd {
+	width: 750px;
+	margin-bottom: 10px;
+	}
+
+#top {
+	width: 750px;
+	display: block;
+	margin: 10px 0;
+	}
+
+#bd {
+	width: 750px;
+	margin-bottom: 10px;
+	}
+
+#main {
+	width: 504px;
+	margin: 0 242px 0 0;
+	}
+	
+#rcolumn {
+	float: right;
+	clear: none;
+	width: 240px;
+	margin: 0 0 0 0;
+	background: url('images/righttop.jpg') no-repeat top left;
+	min-height: 250px;
+	}
+	
+#rcolumn2 {
+	float: right;
+	clear: none;
+	width: 240px;
+	margin: 0 0 0 0;
+	background: url('images/righttop.jpg') no-repeat top left;
+	min-height: 250px;
+	}
+	
+#footer {
+	width: 750px;
+	float:right;
+	clear: both;
+	margin: 30px 0 30px 0;
+	font-size: 0.7em;
+	}

@@ -1,0 +1,148 @@
+
+
+.menu {
+	width:745px; 
+	height:52px; 
+	font-size:0.85em; 
+	position:relative; 
+	z-index:100;
+	border-right:1px solid #057676;
+	}
+
+* html .menu {
+	width:746px; 
+	w\idth:745px;
+	}
+	
+.menu ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	}
+	
+.menu ul ul {
+	width:149px;
+	}
+	
+.menu li {
+	float:left;
+	width:149px;
+	position:relative;
+	}
+	
+.menu a, .menu a:visited {
+	display:block;
+	font: 15px 'trebuchet ms',arial,sans-serif;
+	text-decoration:none; 
+	color:#fff; 
+	width:133px; 
+	height:50px; 
+	border:1px solid #057676; 
+	border-width:1px 0 1px 1px; 
+	background:#900 url('images/menubg.jpg') repeat-x bottom left; 
+	padding-left:15px; 
+	line-height:47px;
+	}
+	
+* html .menu a, * html .menu a:visited {
+	width:149px; 
+	w\idth:128px;
+	}
+
+.menu ul ul a.drop, .menu ul ul a.drop:visited {
+	background:#d4d8bd url(http://www.cssplay.co.uk/graphics/drop.gif) bottom right no-repeat;
+	}
+
+.menu ul ul a.drop:hover{
+	background:#c9ba65 url(http://www.cssplay.co.uk/graphics/drop.gif) bottom right no-repeat;
+	}
+	
+.menu ul ul :hover > a.drop {
+	background:#c9ba65 url(http://www.cssplay.co.uk/graphics/drop.gif) bottom right no-repeat;
+	}
+
+.menu ul ul ul a, .menu ul ul ul a:visited {
+	background:#e2dfa8;
+	}
+
+.menu ul ul ul a:hover {
+	background:#b2ab9b;
+	}
+
+.menu ul ul {
+	visibility:hidden;
+	position:absolute;
+	height:0;
+	top:51px;
+	left:0; 
+	width:149px;
+	border-top:1px solid #b00;
+	}
+
+* html .menu ul ul {
+	top:50px;
+	t\op:51px;
+	}
+
+.menu ul ul ul{
+	left:149px; 
+	top:-1px; 
+	width:149px;
+	}
+
+.menu ul ul ul.left {
+	left:-149px;
+	}
+
+.menu table {
+	position:absolute; 
+	top:0; 
+	left:0; 
+	border-collapse:collapse;;
+	}
+
+.menu ul ul a, .menu ul ul a:visited {
+	background:#DBD6AD; 
+	color:#10494A; 
+	height:auto; 
+	line-height:1em; 
+	padding:10px 10px; 
+	font-size: 12px;
+	width:128px;
+	border: 1px solid #FFF;
+	border-width:0 1px 1px 1px;
+	}
+
+* html .menu ul ul a, * html .menu ul ul a:visited {
+	width:150px;
+	w\idth:128px;
+	}
+
+.menu a:hover, .menu ul ul a:hover {
+	color:#fff; 
+	background:#BD481D;
+	}
+
+.menu :hover > a {
+	color:#fff;
+	background:#BD481D;
+	}
+	
+.menu ul ul :hover > a {
+	color:#006666;
+	background:#CFC994;
+	}
+
+
+.menu ul li:hover ul,
+.menu ul a:hover ul{
+	visibility:visible; 
+	}
+
+.menu ul :hover ul ul{
+	visibility:hidden;
+	}
+
+.menu ul :hover ul :hover ul{ 
+	visibility:visible;
+	}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	 version="2.4">
+
+  <display-name>Workplace</display-name>
+  <description>
+    For workplace exercise
+  </description>
+
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>workplace</web-resource-name>
+      <url-pattern>/CSS/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>workplaceRole</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <login-config>
+    <auth-method>KEYCLOAK</auth-method>
+    <realm-name>TBD</realm-name>
+  </login-config>
+</web-app>
